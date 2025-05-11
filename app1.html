@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isp codes</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #f4f4f4, #e0e0e0);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #007BFF, #0056b3);
+            color: white;
+            padding: 40px 20px;
+            font-size: 28px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #007BFF;
+        }
+
+        .app-image {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .app-image:hover {
+            transform: scale(1.05);
+        }
+
+        .description {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+
+        .features {
+            text-align: left;
+            padding: 0 20px;
+            margin-bottom: 30px;
+        }
+
+        .features h3 {
+            font-size: 24px;
+            color: #007BFF;
+            margin-bottom: 15px;
+        }
+
+        .features ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .features li {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .features li::before {
+            content: "✔";
+            color: #28a745;
+            position: absolute;
+            left: 0;
+            font-size: 18px;
+        }
+
+        .technology {
+            font-size: 16px;
+            color: #333;
+            margin-top: 30px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .download-button, .playstore-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .download-button {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .download-button:hover {
+            background-color: #218838;
+            transform: translateY(-3px);
+            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+        }
+
+        .playstore-button {
+            background-color: #007BFF;
+            color: white;
+        }
+
+        .playstore-button:hover {
+            background-color: #0056b3;
+            transform: translateY(-3px);
+            box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 30px;
+            text-decoration: none;
+            font-size: 16px;
+            color: #007BFF;
+            transition: color 0.3s ease;
+        }
+
+        .back-button:hover {
+            color: #0056b3;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header {
+                font-size: 24px;
+                padding: 30px 15px;
+            }
+
+            h2 {
+                font-size: 28px;
+            }
+
+            .buttons {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .download-button, .playstore-button {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Isp Codes</h1>
+    </header>
+    <main>
+        <img src="https://aaueng.s3.eu-north-1.amazonaws.com/feature.png" alt="SDN Spanish App" class="app-image">
+        
+        <h2>Isp Codes</h2>
+        <p class="description">Easily access mobile network codes for Internet, Calls, and Other Services. No more searching for USSD codes—everything is in one place!</p>
+
+        <div class="features">
+            <h3>Features:</h3>
+            <ul>
+                <li>Supports multiple ISPs (Zain, MTN, Sudani)</li>
+                <li>Quick access to Internet, Call, and Service codes</li>
+                <li>Offline mode with locally stored data</li>
+                <li>Dark mode support for better readability</li>
+                <li>Automatic updates for new ISP codes</li>
+            </ul>
+        </div>
+
+        <p class="technology"><strong>Built with:</strong> Kotlin, Room Database, AWS S3, Firebase Realtime Database</p>
+
+        <div class="buttons">
+            <a href="https://aaueng.s3.eu-north-1.amazonaws.com/ispcodes.apk" class="download-button" download>Download APK</a>
+            <a href="https://play.google.com/store/apps/details?id=com.muhanad.ispcodes" class="playstore-button" target="_blank">Download from Google Play</a>
+        </div>
+        
+        <br>
+        <a href="index.html" class="back-button">⬅ Back to Home</a>
+    </main>
+</body>
+</html>l>html>l>
